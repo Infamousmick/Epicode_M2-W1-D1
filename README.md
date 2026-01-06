@@ -1,1 +1,18 @@
-# Epicode_2-W1-D1
+# Epicode_M2-W1-D1
+
+## Svolgimento esercizio
+1. Cos'è un algoritmo?
+L'algoritmo è una serie di istruzioni che serve a risolvere un problema. Per esempio ci serve calcolare quanti € corrisponde 1 BTC. Nell'algoritmo allora avremo bisogno di dare delle istruzioni precise, quali sono: le variabili di partenza, un fattore di conversione (COSTANTE in molti casi, ma nel caso del BTC avremo bisogno di una variabile perché il valore del BTC non è fisso), una variabile di risultato (che dovrà contenere l'operazione di conversione da BTC a €) e poi un metodo per stampare il risultato. Gli algoritmi possono essere ben più articolati di questo ovviamente.
+
+2. Cos'è una variabile?
+La variabile può essere definita in senso ampio come un contenitore. A differenza della COSTANTE essa ha un valore che:
+- Può cambiare in quanto possiamo dare diverso anche dopo averla dichiarata o anche dopo averle dato già un valore precedente e l'abbiamo poi sovrascritta
+- Può contenere vari tipi di dato come per esempio numeri (interi o decimali), stringhe etc.
+
+Per semplificare il concetto possiamo immaginare la variabile come un contenitore generico, dal momento in cui la **dichiariamo** con la keyword **let** noi stiamo dicendo allo script che la variabile esiste, ma non stiamo dicendo che tipo di dato conterrà. E' come dire che abbiamo un contenitore ma non sappiamo CHE contenitore. Per esempio potremmo avere un bicchiere che è adatto a contenere acqua, un bottiglia d'olio, oppure un contenitore da sale ma non sappiamo quale tra questi contenitori abbiamo. Finchè io dico allo script: "ecco questa variabile **contenitore1** esiste", lui ne tiene in considerazione senza sapere a che serve e quale sia la quantità contenuta nel contenitore.
+Abbiamo quindi bisogno di **inizializzare la variabile** quindi di darle un valore definito, per esempio diciamo che il contenitore contiene tot grammi di acqua, oopure un contenitore **portafoglio1** che ha tot €. Da questo momento la variabile esiste ma ha anche un dato definito, quindi le variabili **contenitore1** e ***portafoglio1** conterranno dei dati di tipo numerico (typeOF number), ma (a differenza di altri linguaggi) il tipo di contenuto può anche cambiare, per esempio successivamente posso dare loro anche una stringa come per esempio **portafoglio1 = "Possiedo 80€".
+
+3. Undefined e null sono la stessa cosa?
+No:
+- **undefined**: La variabile si trova in questo stato quando noi l'abbiamo **dichiarata con la keyword let** ma senza però **inizializzarla** e quindi lo script non sa né che tipo di dato contiene né la sua quantità. Dal momento in cui fornisco alla variabile un valore lo stato non sarà più **undefined**. In questo caso l'esempio adatto potrebbe essere quello di un portafoglio di criptovalute, **undefined** è come dire che ho un portafoglio di criptovalute ma senza sapere se il portafoglio è per la valuta BTC, ETH, LTC e coì via.
+- **null**: La variabile diventa **null quando io dichiaro che il suo valore sarà null**, in questo modo essa non conterrà niente al suo interno. Per esempio io ho una variabile **portfolio1 = 80** e dopo aver usato la stessa voglio poterla *"pulire"*, in questo modo la dichiaro **null** per evitare errori negli step succesivi quando avrò ancora bisogno della variabile. Dare alla variabile un valore 0 NON significa che sia null, 0 è comunque un dato che sta riempendo il campo della variable, se provassi a fare un'operazione con la variabile **portfolio1= 0** avrei un risultato, se provassi invece a fare un'operazione con la variabile stessa che è **null** probabilmente avrei un errore. Nel caso dell'esempio del portafoglio di criptovalute quando io dico che il portafoglio è null non sto dicendo che contenga 0 BTC, oppure 0 ETH ma che non contiene nulla, neanche 0.
