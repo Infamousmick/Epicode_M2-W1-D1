@@ -6,7 +6,7 @@ L'algoritmo è una serie di istruzioni che serve a risolvere un problema. Per es
 
 2. Cos'è una variabile?
 La variabile può essere definita in senso ampio come un contenitore. A differenza della COSTANTE essa ha un valore che:
-- Può cambiare in quanto possiamo dare diverso anche dopo averla dichiarata o anche dopo averle dato già un valore precedente e l'abbiamo poi sovrascritta
+- Può cambiare in quanto possiamo darle un valore anche dopo averla dichiarata o anche dopo averle dato già un valore precedente e l'abbiamo poi sovrascritta
 - Può contenere vari tipi di dato come per esempio numeri (interi o decimali), stringhe etc.
 
 Per semplificare il concetto possiamo immaginare la variabile come un contenitore generico, dal momento in cui la **dichiariamo** con la keyword **let** noi stiamo dicendo allo script che la variabile esiste, ma non stiamo dicendo che tipo di dato conterrà. E' come dire che abbiamo un contenitore ma non sappiamo CHE contenitore. Per esempio potremmo avere un bicchiere che è adatto a contenere acqua, un bottiglia d'olio, oppure un contenitore da sale ma non sappiamo quale tra questi contenitori abbiamo. Finchè io dico allo script: "ecco questa variabile **contenitore1** esiste", lui ne tiene in considerazione senza sapere a che serve e quale sia la quantità contenuta nel contenitore.
